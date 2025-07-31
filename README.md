@@ -1,8 +1,8 @@
-# 📚 Top 10 Book Recommender
+#  Top 10 Book Recommender
 
 This is a mini project that recommends the **Top 10 highest-rated books** using a weighted rating formula. It also allows you to **search for any book** and see its details.
 
-## 📁 Dataset
+# Dataset
 
 - The dataset used is `books.csv` 
 - Required columns in the CSV:
@@ -12,7 +12,7 @@ This is a mini project that recommends the **Top 10 highest-rated books** using 
   - `ratings_count`
  Can get book data from Kaggle or Goodreads exports.
 
-## 🧠 Logic Behind the Scoring
+# Logic Behind the Scoring
 
 To avoid unfairness in rankings (like books with only 5 reviews being rated 5.0), we use a **weighted rating** formula:
 score = (v / (v + m)) * R + (m / (v + m)) * C
