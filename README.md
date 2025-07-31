@@ -28,6 +28,6 @@ This project is inspired by a tutorial that built an IMDB movie recommender.
 I adapted the logic to books instead of movies and tried to create it.
 
 🌟 Future Improvements
->Add a web-based interface using Flask or Streamlit
+>Add a web-based interface using Flask or Streamlit,
 >Show book covers using an API (like Google Books)
 
